@@ -1,0 +1,30 @@
+{
+  "name": "checkboxrange",
+  "version": "1.1.2",
+  "homepage": "https://github.com/vanderlee/checkboxrange",
+  "authors": [
+    "Martijn van der Lee <martijn@vanderlee.com>"
+  ],
+  "description": "jQuery standalone checkboxrange (indeterminate) checkbox with pseudo selectors, optional value modification and .val() overwrite.",
+  "main": "jquery.checkboxrange.js",
+  "keywords": [
+    "jquery",
+    "checkboxrange",
+    "checkbox",
+    "indeterminate",
+    "checked",
+    "boolean"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	"jquery": ">=1.6.2",
+    "jquery-ui": ">=1.8"
+  }
+}

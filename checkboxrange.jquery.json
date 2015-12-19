@@ -1,0 +1,37 @@
+{
+	"name": "checkboxrange",
+	"version": "1.0",
+	"title": "Vanderlee Checkboxrange",
+	"description": "jQuery standalone checkboxrange (indeterminate) checkbox with pseudo selectors and optional value modification and .val() overwrite. Standalone, so usable for purposes other than list/tree marking.",
+	"author": {
+			"name": "Martijn van der Lee",
+			"url": "http://martijn.vanderlee.com",
+			"email": "martijn@vanderlee.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/MIT"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vanderlee/checkboxrange.git"
+	},
+	"dependencies": {
+		"jquery": ">=1.6.2",
+		"jquery-ui": ">=1.8"
+	},
+	"homepage": "http://vanderlee.github.com/checkboxrange",
+	"demo": "http://vanderlee.github.com/checkboxrange",
+	"download":"https://github.com/vanderlee/checkboxrange",
+	"bugs": "https://github.com/vanderlee/checkboxrange/issues",
+	"maintainers": [
+		{
+			"name": "Martijn van der Lee",
+			"url": "http://martijn.vanderlee.com",
+			"email": "martijn@vanderlee.com"
+		}
+	],
+	"keywords": ["checkboxrange", "checkbox", "ui", "indeterminate", "checked"]
+}
