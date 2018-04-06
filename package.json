@@ -1,0 +1,31 @@
+{
+  "name": "checkboxrange",
+  "version": "1.0.0",
+  "homepage": "https://github.com/vanderlee/checkboxrange",
+  "author": "Martijn van der Lee <martijn@vanderlee.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanderlee/checkboxrange"
+  },
+  "description": "jQuery plugin to select multiple checkboxes using keyboard shift and/or alt keys.",
+  "main": "jquery.checkboxrange.js",
+  "keywords": [
+	"jquery",
+	"checkboxrange",
+	"checkbox",
+	"keyboard",
+	"multiple",
+	"shift"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.2.0",
+  }
+}
