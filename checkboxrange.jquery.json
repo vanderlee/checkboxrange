@@ -1,12 +1,12 @@
 {
 	"name": "checkboxrange",
-	"version": "1.0",
+	"version": "1.0.0",
 	"title": "Vanderlee Checkboxrange",
-	"description": "jQuery standalone checkboxrange (indeterminate) checkbox with pseudo selectors and optional value modification and .val() overwrite. Standalone, so usable for purposes other than list/tree marking.",
+	"description": "jQuery plugin to select multiple checkboxes using keyboard shift and/or alt keys",
 	"author": {
-			"name": "Martijn van der Lee",
-			"url": "http://martijn.vanderlee.com",
-			"email": "martijn@vanderlee.com"
+		"name": "Martijn van der Lee",
+		"url": "http://martijn.vanderlee.com",
+		"email": "martijn@vanderlee.com"
 	},
 	"licenses": [
 		{
@@ -19,12 +19,11 @@
 		"url": "https://github.com/vanderlee/checkboxrange.git"
 	},
 	"dependencies": {
-		"jquery": ">=1.6.2",
-		"jquery-ui": ">=1.8"
+		"jquery": ">=1.2.0"
 	},
 	"homepage": "http://vanderlee.github.com/checkboxrange",
 	"demo": "http://vanderlee.github.com/checkboxrange",
-	"download":"https://github.com/vanderlee/checkboxrange",
+	"download": "https://github.com/vanderlee/checkboxrange",
 	"bugs": "https://github.com/vanderlee/checkboxrange/issues",
 	"maintainers": [
 		{
@@ -33,5 +32,12 @@
 			"email": "martijn@vanderlee.com"
 		}
 	],
-	"keywords": ["checkboxrange", "checkbox", "ui", "indeterminate", "checked"]
+	"keywords": [
+		"jquery",
+		"checkboxrange",
+		"checkbox",
+		"keyboard",
+		"multiple",
+		"shift"
+	]
 }

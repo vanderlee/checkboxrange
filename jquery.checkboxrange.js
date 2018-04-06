@@ -4,7 +4,7 @@
 /*!
  * CheckboxRange
  *
- * Copyright (c) 2015 Martijn W. van der Lee
+ * Copyright (c) 2018 Martijn W. van der Lee
  * Licensed under the MIT.
  */
 /*
@@ -32,19 +32,19 @@
             var self = this,
                 lastIndex = null;
 
-            self._checkboxes().on('click', function(e) {
+            self._checkboxes().click(function(e) {
                 var checkboxes = self._checkboxes(),
                     index = checkboxes.index(this);
 
                 if (lastIndex !== null && e.shiftKey) {
                     checkboxes
                         .slice(Math.min(lastIndex, index), Math.max(lastIndex, index) + 1)
-                        .prop('checked', $(this).is(':checked'));
+                        .attr('checked', $(this).is(':checked'));
                 } else if (lastIndex !== null && e.altKey) {
                     checkboxes
                         .slice(Math.min(lastIndex, index), Math.max(lastIndex, index))
                         .each(function() {
-                            $(this).prop('checked', !$(this).is(':checked'));
+                            $(this).attr('checked', !$(this).is(':checked'));
                         });
                 } else {
                     lastIndex = index;
